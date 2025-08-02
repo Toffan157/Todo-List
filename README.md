@@ -33,3 +33,24 @@ Follow these steps to set up the project locally:
 ```bash
 git clone https://github.com/your-username/todo-list.git
 cd todo-list
+
+2. Create and activate a virtual environment
+
+python -m venv venv
+# On macOS/Linux
+source venv/bin/activate
+# On Windows
+venv\Scripts\activate
+
+3. Install Django
+
+pip install django
+
+4. Apply database migrations
+
+python manage.py migrate
+
+5. Run the development server
+
+python manage.py runserver
+
